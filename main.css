@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section{
+    width: 85%;
+    margin: 70px auto 20px;
+}
+
+section .card{
+    background-color: white;
+    box-shadow: 0 0 20px #666;
+    border-radius: 17px;
+}
+
+section .card .card-img{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+}
+section .card .card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #6666;
+    box-shadow: 0 0 20px #6666;
+    margin-top: 60px;
+}
+
+section .card .card-title h2{
+   color: black;
+   font-size: 30px;
+   text-align: center;
+   font-weight: 700;
+   margin-top: 70px;
+   padding: 10px;
+}
+
+section .card .card-title h5{
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+section .card .card-title .fa{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+section .card .card-title .fa span{
+    margin-left: 10px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+section .card .card-informatison{
+    width: 70%;
+    margin: auto;
+}
+section .card .card-informatison p{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    padding: 10px;
+    line-height: 35px;
+}
+
+section .card .card-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin-left: -30px;
+}
+
+section .card .card-icons .fa{
+    margin-left: 70px; 
+    font-size: 26px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #6666;
+}
+
+/* media qurey */
+
+@media(max-width: 576px){
+    section .card .card-img{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    section .card .card-img img{
+        width: 100%;
+        height: 100%;
+    }
+    section .card .card-title h2{
+        font-size: 16px;
+     }
+     section .card .card-title h5{
+         font-size: 15px;
+     }
+     section .card .card-title .fa{
+         font-size: 18px;
+     }
+     section .card .card-title .fa span{
+         font-size: 16px;
+     }
+     section .card .card-informatison p{
+         font-size: 14px;
+         word-spacing: 3px;
+         letter-spacing: 2px;
+         padding: 10px;
+         line-height: 20px;
+     }
+     section .card .card-icons .fa{
+        margin-left: 20px;
+        font-size: 16px;
+        padding: 8px 8px;
+     }
+     section .card{
+        background-color: white;
+        box-shadow: 0 0 10px #666;
+        border-radius: 17px;
+    }
+}
+
+@media(min-width: 577px) and (max-width: 768px){
+    section .card .card-img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    section .card .card-img img{
+        width: 100%;
+        height: 100%;
+    }
+    section .card .card-title h2{
+        font-size: 20px;
+     }
+     section .card .card-title h5{
+         font-size: 18px;
+     }
+     section .card .card-title .fa{
+         font-size: 22px;
+     }
+     section .card .card-title .fa span{
+         font-size: 20px;
+     }
+     section .card .card-informatison p{
+         font-size: 16px;
+         word-spacing: 6px;
+         letter-spacing: 2px;
+         padding: 10px;
+         line-height: 25px;
+     }
+     section .card .card-icons .fa{
+        margin-left: 60px;
+        font-size: 20px;
+        padding: 12px 12px;
+     }
+     section .card{
+        background-color: white;
+        box-shadow: 0 0 14px #666;
+        border-radius: 17px;
+    }
+}
+
+
+
+#instagram{
+    color: deeppink; 
+}
+
+#twettir,
+#telegram{
+    color: rgba(0, 0, 255, 0.754);
+}
+
+#githup{
+    color: black;
+}
